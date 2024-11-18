@@ -1,0 +1,64 @@
+/* card modal design in board blade*/
+.cardModal .modal-content {
+    background-color: #2c2f33;
+    color: #dcdcdc;
+    border-radius: 8px;
+}
+.cardModal .modal-header {
+    border-bottom: none;
+}
+.cardModal .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.cardModal .btn-close {
+    filter: invert(1);
+}
+.cardModal .section-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #8a8d90;
+}
+.cardModal .form-control, .cardModal .btn, .cardModal .btn-action {
+    background-color: #3a3d42;
+    color: #dcdcdc;
+    border: none;
+}
+.cardModal .btn-action {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+.cardModal .btn-action:hover, .cardModal .form-control:focus {
+    background-color: #4b4f55;
+}
+.cardModal .custom-field {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.cardModal .activity-entry {
+    border-top: 1px solid #4b4f55;
+    padding-top: 10px;
+}
+
+/* add list button in board blade */
+.listAddButton .card-header,
+.listAddButton .card-footer,
+.listAddButton .list-group-item {
+    background-color: transparent !important;
+}
+
+.listAddButton .card .card-header,
+.listAddButton .card .card-footer {
+    border: none !important;
+}
+
+.listAddButton .list-name-input {
+    color: white;
+    padding: 5px;
+    background-color: #4b4f55;
+    border: 1px solid #4b4f55;
+    border-radius: 5px;
+}

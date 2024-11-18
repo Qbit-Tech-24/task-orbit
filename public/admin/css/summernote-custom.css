@@ -1,0 +1,75 @@
+    /* Dark background for the entire Summernote editor */
+    .note-editor {
+        background-color: #2c2c2c !important; /* Dark background for the editor container */
+        color: rgb(235, 235, 235) !important; /* rgb(235, 235, 235) text color in the editable area */
+    }
+
+    /* Dark background for the editable area where text is typed */
+    .note-editable {
+        background-color: #2c2c2c !important; /* Dark background for the editing area */
+        color: rgb(235, 235, 235) !important; /* rgb(235, 235, 235) text color */
+        border: none; /* Remove border */
+        min-height: 150px; /* Optional, set a minimum height for the editor */
+    }
+
+    /* Dark toolbar background */
+    .note-toolbar {
+        background-color: #444 !important; /* Dark background for the toolbar */
+        border: none !important; /* Remove border */
+        box-shadow: none !important; /* Remove shadow */
+    }
+
+    /* Button styles for the toolbar (dark background and rgb(235, 235, 235) text) */
+    .note-btn {
+        background-color: #555 !important; /* Dark button background */
+        color: black !important; /* Black text for toolbar buttons */
+        border-color: #444 !important; /* Dark border for buttons */
+    }
+
+    /* Active state for the buttons */
+    .note-btn.active {
+        background-color: #666 !important; /* Slightly lighter for active buttons */
+    }
+
+    /* Button hover styles */
+    .note-btn:hover {
+        background-color: #666 !important; /* Darker background on hover */
+        color: black !important; /* Black text */
+    }
+
+    /* Placeholder text style */
+    .note-placeholder {
+        color: #bbb !important; /* Light gray for placeholder text */
+    }
+
+    /* Dark color for text selection */
+    .note-editable .note-selected {
+        background-color: #444 !important; /* Dark highlight color for selection */
+        color: #fff !important; /* rgb(235, 235, 235) text for selected text */
+    }
+
+    /* Customize link buttons (e.g., insert link, image, etc.) */
+    .note-btn-link {
+        background-color: #555 !important;
+        color: black !important;
+    }
+
+    /* Change color of icons in the toolbar */
+    .note-toolbar .note-btn i {
+        color: black !important; /* Black icons for dark mode */
+    }
+
+    /* Change button text color (if using text buttons) */
+    .note-toolbar .note-btn span {
+        color: black !important; /* Black text for button labels */
+    }
+
+    /* Darken the hover state for toolbar icons */
+    .note-toolbar .note-btn:hover i {
+        color: black !important; /* Black icons when hovered */
+    }
+
+    /* Darken the active state for toolbar icons */
+    .note-toolbar .note-btn.active i {
+        color: #333 !important; /* Slightly darker black for active icon */
+    }
